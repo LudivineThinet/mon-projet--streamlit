@@ -43,6 +43,12 @@ Ce projet est un projet témoin à visée pédagogique, sans donnée sensible. D
 - **Matplotlib / Seaborn** - visualisation (heatmap)
 - **streamlit-option-menu** - navigation avancée
 
+## Structure du projet
+
+L'application finale et déployée se trouve entièrement dans **`app.py`**. C'est le seul fichier nécessaire pour faire tourner le projet.
+
+Les autres fichiers Python présents dans le dépôt (`app_taxis.py`, `app_dataviz.py`, `app_securisee.py`) sont des **étapes de construction intermédiaires**, réalisées au fil des activités pour apprendre et tester chaque fonctionnalité une par une (chargement de données, widgets, authentification, navigation...) avant de tout assembler dans `app.py`. Ils sont conservés dans le dépôt à titre pédagogique, pour montrer la progression du travail, mais ne sont pas utilisés en production.
+
 ## Déroulé du projet (activités réalisées)
 
 1. **Environnement Python, Git & HTML/CSS** : mise en place du venv, `.gitignore`, création d'une page portfolio HTML/CSS publiée sur GitHub Pages
