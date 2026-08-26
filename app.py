@@ -137,6 +137,9 @@ else:
         dashboard_options = ["Taxis", "Flights"]
         current_dashboard = st.session_state.get("dashboard_submenu", st.session_state["dashboard_choice"])
 
+        if current_dashboard not in dashboard_options:
+            current_dashboard = "Flights"
+
         dashboard_selection = option_menu(
             menu_title=None,
             options=dashboard_options,
